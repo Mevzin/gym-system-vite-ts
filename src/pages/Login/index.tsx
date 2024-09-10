@@ -10,7 +10,7 @@ import { Button } from "@/components/ui/button";
 import { FiFacebook } from "react-icons/fi";
 import { BiLogoInstagramAlt } from "react-icons/bi";
 import { Input } from "@/components/ui/input";
-export const Login = () => {
+const Login = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
 
@@ -64,3 +64,5 @@ export const Login = () => {
         </div>
     )
 }
+
+export default Login;
