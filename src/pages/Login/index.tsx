@@ -59,6 +59,9 @@ const Login = () => {
                         <BiLogoInstagramAlt size={25} className="mr-3" />Conectar com Instagram
                     </Button>
                 </div>
+                <div className="flex mt-10">
+                    <span className="text-white font-bold">Sé não possui registro <a className="text-slate-400 hover:cursor-pointer">cadastre-se!</a></span>
+                </div>
             </div>
             {/* <Footer></Footer> */}
         </div>
