@@ -3,7 +3,10 @@ import RoutesGym from './routes'
 function App() {
 
   return (
-    <RoutesGym />
+    <div className='flex flex-col items-center'>
+      <RoutesGym />
+
+    </div>
   )
 }
 

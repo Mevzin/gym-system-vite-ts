@@ -1,7 +1,8 @@
+import Dashboard from "@/pages/Dashboard";
 import Login from "../pages/Login";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-const userAuth = false
+const userAuth = true
 export default function RoutesGym() {
     return (
         <BrowserRouter>
@@ -11,6 +12,8 @@ export default function RoutesGym() {
                         {/* <Route path="/" element={<Home />} />
                         <Route path="/dashboard" element={<Dashboard />} />
                         <Route path="/profile" element={<Profile />} /> */}
+                        <Route path="*" element={<Dashboard />} />
+                        <Route path="/dashboard" element={<Dashboard />} />
                     </>
                 ) : (
                     <>
