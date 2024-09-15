@@ -1,5 +1,5 @@
 import Dashboard from "@/pages/Dashboard";
-import Login from "../pages/Login";
+import Login from "@/pages/Login";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 const userAuth = false
