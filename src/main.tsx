@@ -1,10 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import App from './App.tsx'
 import './index.css'
+import RoutesGym from './routes'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <App />
+    <RoutesGym />
   </StrictMode>,
 )

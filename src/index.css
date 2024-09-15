@@ -70,5 +70,5 @@
 }
 
 body {
-  @apply flex bg-slate-900 text-white justify-center
+  @apply flex bg-slate-900 text-white justify-center font-roboto
 }

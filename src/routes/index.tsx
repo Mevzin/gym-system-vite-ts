@@ -2,7 +2,7 @@ import Dashboard from "@/pages/Dashboard";
 import Login from "../pages/Login";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-const userAuth = true
+const userAuth = false
 export default function RoutesGym() {
     return (
         <BrowserRouter>
