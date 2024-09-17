@@ -9,6 +9,7 @@ import {
     ChartTooltip,
     ChartTooltipContent,
 } from "@/components/ui/chart"
+
 const Dashboard = () => {
 
     const chartData = [
